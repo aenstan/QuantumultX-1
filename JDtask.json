@@ -1,6 +1,6 @@
 {
-    "name": "QX京东系签到",
-    "description": "收集自各位大佬作品",
+    "name": "QX京东脚本",
+    "description": "收集自各位大佬 ",
     "task": [
 		"0 0 1,11 2,11,21 * ? https://raw.githubusercontent.com/whyour/hundun/master/quanx/shareCode-auto.js, tag=提交互助码, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true",
 		"1,3 0,12,18 * * * https://raw.githubusercontent.combyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true",
