@@ -1,5 +1,6 @@
 自用
 
+
 特别感谢：
 * [@lxk0301](https://github.com/yangtingxiao) 
 * [@whyour](https://github.com/whyour/hundun)
@@ -9,6 +10,7 @@
 * [@Sunert](https://github.com/Sunert/Scripts)
 * [@id77](https://github.com/id77/QuantumultX)
 * [@Orz-3](https://github.com/Orz-3)
+* [@58xinian](https://github.com/58xinian/icon)
 
 
 ⚠️免责声明：
