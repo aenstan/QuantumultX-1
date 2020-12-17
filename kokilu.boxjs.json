@@ -6,7 +6,7 @@
   "repo": "https://github.com/kokilu/QuantumultX/tree/main",
   "apps": [
     {
-      "id": "shareCode",
+      "id": "shareCode-auto",
       "name": "京东互助码",
       "keys": [
 	       "zd_shareCode1",
