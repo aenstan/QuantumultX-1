@@ -3,7 +3,7 @@
   "name": "kokilu应用订阅",
   "author": "@kokilu",
   "icon": "https://avatars0.githubusercontent.com/u/61528323?s=460&u=f07db6fe47e9b7e5746b404e1c7f39c6c0e93652&v=4",
-  "repo": "https://github.com/kokilu/QuantumultX/tree/main",
+  "repo": "https://github.com/kokilu/QuantumultX",
   "apps": [
     {
       "id": "shareCode",
@@ -33,7 +33,7 @@
 	       "nc_shareCode5",
 	       "mc_shareCode5",
 	       "dd_shareCode5",
-	       "jx_shareCode5"
+	       "jx_shareCode5",
       ],
       "settings": [
         {
@@ -213,7 +213,7 @@
         },
       ],
       "author": "@kokilu",
-      "repo": "https://github.com/kokilu/QuantumultX/blob/main/shareCode-auto.js",
+      "repo": "https://github.com/kokilu/QuantumultX",
       "script": "https://raw.githubusercontent.com/kokilu/QuantumultX/main/shareCode-auto.js",
       "icons": [ "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png", 
 	             "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
