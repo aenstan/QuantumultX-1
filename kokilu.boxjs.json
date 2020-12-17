@@ -6,8 +6,8 @@
   "repo": "https://github.com/kokilu/QuantumultX",
   "apps": [
     {
-      "id": "shareCode",
-      "name": "京东云互助码",
+      "id": "shareCode-auto",
+      "name": "京东互助码",
       "keys": [
 	       "zd_shareCode1",
 	       "nc_shareCode1",
@@ -175,6 +175,7 @@
           "val": "",
           "type": "text",
           "desc": "此处请填写你的京喜工厂码"
+        },
 		{
           "id": "zd_shareCode5",
           "name": "账号五的种豆得豆",
@@ -212,7 +213,7 @@
 		},
       ],
       "author": "@kokilu",
-      "repo": "https://raw.githubusercontent.com/kokilu/QuantumultX/shareCode-auto.js",
+      "repo": "https://raw.githubusercontent.com/kokilu/QuantumultX/main/shareCode-auto.js",
       "script": "https://github.com/kokilu/QuantumultX",
       "icons": [ "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png","https://raw.githubusercontent.com/Orz-3/task/master/jd.png"]
     }
