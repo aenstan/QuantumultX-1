@@ -106,7 +106,7 @@
           "type": "text",
           "desc": "此处请填写你的京喜工厂码"
         },
-	{
+        {
           "id": "zd_shareCode3",
           "name": "账号三的种豆得豆",
           "val": "",
@@ -210,7 +210,7 @@
           "val": "",
           "type": "text",
           "desc": "此处请填写你的京喜工厂码"
-		},
+        },
       ],
       "author": "@kokilu",
       "repo": "https://raw.githubusercontent.com/kokilu/QuantumultX/main/shareCode-auto.js",
