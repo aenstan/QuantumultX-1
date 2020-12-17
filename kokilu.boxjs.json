@@ -215,7 +215,9 @@
       "author": "@kokilu",
       "repo": "https://raw.githubusercontent.com/kokilu/QuantumultX/main/shareCode-auto.js",
       "script": "https://github.com/kokilu/QuantumultX",
-      "icons": [ "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png","https://raw.githubusercontent.com/Orz-3/task/master/jd.png"]
+      "icons": [ "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png", 
+	             "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+	  ]
     }
   ]
 }
