@@ -1,8 +1,8 @@
 {
-  "id": "xingliuchao.app.sub",
-  "name": "xingliuchao 脚本辅助",
-  "author": "@xingliuchao",
-  "icon": "https://avatars3.githubusercontent.com/u/62364023?s=460&u=dd3390d84bbb1774f3f8692e0ec57dcfea3c2a0c&v=4",
+  "id": "kokilu.app.sub",
+  "name": "kokilu应用订阅",
+  "author": "@kokilu",
+  "icon": "https://avatars0.githubusercontent.com/u/61528323?s=460&u=f07db6fe47e9b7e5746b404e1c7f39c6c0e93652&v=4",
   "repo": "https://github.com/xingliuchao/jd/tree/main",
   "apps": [		
     {
