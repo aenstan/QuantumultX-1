@@ -3,7 +3,7 @@
   "name": "kokilu应用订阅",
   "author": "@kokilu",
   "icon": "https://avatars0.githubusercontent.com/u/61528323?s=460&u=f07db6fe47e9b7e5746b404e1c7f39c6c0e93652&v=4",
-  "repo": "https://github.com/kokilu/QuantumultX/main",
+  "repo": "https://github.com/kokilu/QuantumultX/tree/main",
   "apps": [
     {
       "id": "shareCode",
