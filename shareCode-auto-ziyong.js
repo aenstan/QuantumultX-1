@@ -6,6 +6,7 @@ const shareCodes = [
     mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzMTAwMDAwMDAyODg0NzI1OQ==",
     ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5nJcQgm9mQMg_OUYcwpY",
     jxgc: $.getdata("jx_shareCode1") || "NnUc-6MdrKfcojDol3tBZw==",
+    jdzz: $.getdata("zz_shareCode1") || "ATGEc9ujUsl9hcyaqiy8",
   },
   {
     zd: $.getdata("zd_shareCode2") || "qaa74hxscwngyw33svzwntil5a",
@@ -13,6 +14,7 @@ const shareCodes = [
     mc: $.getdata("mc_shareCode2") || "MTE1NDUyMjEwMDAwMDAwNDE5OTE2NDc=",
     ddgc: $.getdata("dd_shareCode2") || "P04z54XCjVWnYaS5nEACmb_23hPk-Y",
     jxgc: $.getdata("jx_shareCode2") || "OJrAXMdO8hF80y5OWt_8fQ==",
+    jdzz: $.getdata("zz_shareCode2") || "ATz1UmaqWyTAOAQ",
   },
   {
     zd: $.getdata("zd_shareCode3") || "3i6yidunk7vevxhuxhxroedwmtju5pi27hd5dsa",
@@ -20,6 +22,7 @@ const shareCodes = [
     mc: $.getdata("mc_shareCode3") || "MTAxODc2NTEzNTAwMDAwMDAyODkyNjkyNQ==",
     ddgc: $.getdata("dd_shareCode3") || "P04z54XCjVWnYaS5j0MCmXx1XRPiA7A3_0esA",
     jxgc: $.getdata("jx_shareCode3") || "5lr2XGx2eFEnR2q_mfrOPQ==",
+    jdzz: $.getdata("zz_shareCode3") || "AAzFUmqSYxTAVDGfx1XtC",
   },
   {
     zd: $.getdata("zd_shareCode4") || "e7lhibzb3zek3clmkhz5evkchy5srqtppa64qra",
@@ -27,6 +30,7 @@ const shareCodes = [
     mc: $.getdata("mc_shareCode4") || "MTAxODcxOTI2NTAwMDAwMDAxMTgyMDA2Nw==",
     ddgc: $.getdata("dd_shareCode4") || "P04z54XCjVWnYaS5m9cZ2SpiC1JkbFjCiXbuLA",
     jxgc: $.getdata("jx_shareCode4") || "Hg1t6rnAo-KZMBgnNpubrg==",
+    jdzz: $.getdata("zz_shareCode4") || "AUWE5m_zFnDYMCGD62y4ZlA",
   },
   {
     zd: $.getdata("zd_shareCode5") || "urpljiymktuc7rd5ugrumlj3zx74hehiog4bxdq",
@@ -34,6 +38,7 @@ const shareCodes = [
     mc: $.getdata("mc_shareCode5") || "MTE1NDUyMjEwMDAwMDAwNDIyMDg4NTk=",
     ddgc: $.getdata("dd_shareCode5") || "P04z54XCjVWnYaS5jEJCGHw2H5XkbkQ8ygc",
     jxgc: $.getdata("jx_shareCode5") || "4jACK8jLS63RbGTCvO-0rg==",
+    jdzz: $.getdata("zz_shareCode5") || "ADzRWnqWVzygMDmn-1HQ",
   },
 ];
 $.result = [];
@@ -42,7 +47,7 @@ $.random = Math.floor(Math.random() * 60);
 !(async () => {
   console.log(`\n此脚本延迟${$.random}秒执行\n`);
   for (let i = 0; i < shareCodes.length; i++) {
-    const { zd, nc, mc, ddgc, jxgc } = shareCodes[i];
+    const { zd, nc, mc, ddgc, jxgc, jdzz } = shareCodes[i];
     await $.wait($.random);
     zd &&
       (await create(
@@ -72,6 +77,12 @@ $.random = Math.floor(Math.random() * 60);
       (await create(
         `http://api.turinglabs.net/api/v1/jd/jxfactory/create/${jxgc}/`,
         "京喜工厂"
+      ));
+    await $.wait($.random);
+    jdzz &&
+      (await create(
+        `https://code.chiang.fun/api/v1/jd/jdzz/create/${jdzz}/`,
+        "京东赚赚"
       ));
   }
   await showMsg();
