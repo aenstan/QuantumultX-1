@@ -15,30 +15,35 @@
 	       "dd_shareCode1",
 	       "jx_shareCode1",
 	       "zz_shareCode1",
+	       "joy_shareCode1",	      
 	       "zd_shareCode2",
 	       "nc_shareCode2",
 	       "mc_shareCode2",
 	       "dd_shareCode2",
 	       "jx_shareCode2",
 	       "zz_shareCode2",
+	       "joy_shareCode2",
 	       "zd_shareCode3",
 	       "nc_shareCode3",
 	       "mc_shareCode3",
 	       "dd_shareCode3",
 	       "jx_shareCode3",
 	       "zz_shareCode3",
+	       "joy_shareCode3",
 	       "zd_shareCode4",
 	       "nc_shareCode4",
 	       "mc_shareCode4",
 	       "dd_shareCode4",
 	       "jx_shareCode4",
 	       "zz_shareCode4",
+	       "joy_shareCode4",
 	       "zd_shareCode5",
 	       "nc_shareCode5",
 	       "mc_shareCode5",
 	       "dd_shareCode5",
 	       "jx_shareCode5",
-	       "zz_shareCode5"
+	       "zz_shareCode5",
+	       "joy_shareCode5"
       ],
       "settings": [
         {
@@ -84,6 +89,13 @@
           "desc": "此处请填写你的京东赚赚码"
         },
         {
+          "id": "joy_shareCode1",
+          "name": "账号一的京东joy",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东joy码"
+        },
+        {
           "id": "zd_shareCode2",
           "name": "账号二的种豆得豆",
           "val": "",
@@ -124,6 +136,13 @@
           "val": "",
           "type": "text",
           "desc": "此处请填写你的京东赚赚码"
+        },
+        {
+          "id": "joy_shareCode2",
+          "name": "账号二的京东joy",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东joy码"
         },
         {
           "id": "zd_shareCode3",
@@ -167,6 +186,13 @@
           "type": "text",
           "desc": "此处请填写你的京东赚赚码"
         },
+        {
+          "id": "joy_shareCode3",
+          "name": "账号三的京东joy",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东joy码"
+        },
 	{
           "id": "zd_shareCode4",
           "name": "账号四的种豆得豆",
@@ -209,6 +235,13 @@
           "type": "text",
           "desc": "此处请填写你的京东赚赚码"
         },
+        {
+          "id": "joy_shareCode4",
+          "name": "账号四的京东joy",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东joy码"
+        },
 	{
           "id": "zd_shareCode5",
           "name": "账号五的种豆得豆",
@@ -250,6 +283,13 @@
           "val": "",
           "type": "text",
           "desc": "此处请填写你的京东赚赚码"
+        },
+        {
+          "id": "joy_shareCode5",
+          "name": "账号五的京东joy",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东joy码"
         }
       ],
       "author": "@kokilu",
