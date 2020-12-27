@@ -7,6 +7,7 @@ const shareCodes = [
     ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5nJcQgm9mQMg_OUYcwpY",
     jxgc: $.getdata("jx_shareCode1") || "NnUc-6MdrKfcojDol3tBZw==",
     jdzz: $.getdata("zz_shareCode1") || "ATGEc9ujUsl9hcyaqiy8",
+    joy: $.getdata("joy_shareCode1") || "QFig4aiiP6mcJvuGY9gcUg==",
   },
   {
     zd: $.getdata("zd_shareCode2") || "qaa74hxscwngyw33svzwntil5a",
@@ -15,6 +16,7 @@ const shareCodes = [
     ddgc: $.getdata("dd_shareCode2") || "P04z54XCjVWnYaS5nEACmb_23hPk-Y",
     jxgc: $.getdata("jx_shareCode2") || "OJrAXMdO8hF80y5OWt_8fQ==",
     jdzz: $.getdata("zz_shareCode2") || "ATz1UmaqWyTAOAQ",
+    joy: $.getdata("joy_shareCode2") || "Wg8HWanSMCVXOhObJwfX6Q==",
   },
   {
     zd: $.getdata("zd_shareCode3") || "3i6yidunk7vevxhuxhxroedwmtju5pi27hd5dsa",
@@ -23,6 +25,7 @@ const shareCodes = [
     ddgc: $.getdata("dd_shareCode3") || "P04z54XCjVWnYaS5j0MCmXx1XRPiA7A3_0esA",
     jxgc: $.getdata("jx_shareCode3") || "5lr2XGx2eFEnR2q_mfrOPQ==",
     jdzz: $.getdata("zz_shareCode3") || "AAzFUmqSYxTAVDGfx1XtC",
+    joy: $.getdata("joy_shareCode3") || "Hxn_G4lF4Bv9tQmwuujYEA==",
   },
   {
     zd: $.getdata("zd_shareCode4") || "e7lhibzb3zek3clmkhz5evkchy5srqtppa64qra",
@@ -31,6 +34,7 @@ const shareCodes = [
     ddgc: $.getdata("dd_shareCode4") || "P04z54XCjVWnYaS5m9cZ2SpiC1JkbFjCiXbuLA",
     jxgc: $.getdata("jx_shareCode4") || "Hg1t6rnAo-KZMBgnNpubrg==",
     jdzz: $.getdata("zz_shareCode4") || "AUWE5m_zFnDYMCGD62y4ZlA",
+    joy: $.getdata("joy_shareCode4") || "SDFVR2eb_-c2DaqGwTQbH6t9zd5YaBeE",
   },
   {
     zd: $.getdata("zd_shareCode5") || "urpljiymktuc7rd5ugrumlj3zx74hehiog4bxdq",
@@ -39,6 +43,7 @@ const shareCodes = [
     ddgc: $.getdata("dd_shareCode5") || "P04z54XCjVWnYaS5jEJCGHw2H5XkbkQ8ygc",
     jxgc: $.getdata("jx_shareCode5") || "4jACK8jLS63RbGTCvO-0rg==",
     jdzz: $.getdata("zz_shareCode5") || "ADzRWnqWVzygMDmn-1HQ",
+    joy: $.getdata("joy_shareCode5") || "-",
   },
 ];
 $.result = [];
@@ -47,7 +52,7 @@ $.random = Math.floor(Math.random() * 60);
 !(async () => {
   console.log(`\n此脚本延迟${$.random}秒执行\n`);
   for (let i = 0; i < shareCodes.length; i++) {
-    const { zd, nc, mc, ddgc, jxgc, jdzz } = shareCodes[i];
+    const { zd, nc, mc, ddgc, jxgc, jdzz, joy } = shareCodes[i];
     await $.wait($.random);
     zd &&
       (await create(
@@ -84,6 +89,13 @@ $.random = Math.floor(Math.random() * 60);
         `https://code.chiang.fun/api/v1/jd/jdzz/create/${jdzz}/`,
         "京东赚赚"
       ));
+    await $.wait($.random);
+    jdzz &&
+      (await create(
+        `https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/${joy}/`,
+        "京东joy"
+      ));
+    
   }
   await showMsg();
 })()
