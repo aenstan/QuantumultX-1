@@ -43,7 +43,6 @@
         "11 0 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_woHome.js, tag=东东小窝, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/woHome.png, enabled=true",
         "0 9 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/ddxw.js, tag=东东小窝, img-url=https://raw.githubusercontent.com/58xinian/icon/master/ddxw.png, enabled=true",
         "0 9 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png, enabled=true",
-        "10 */4 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_story.js, tag=京喜金牌厂长, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdgc.png, enabled=true",
         "20 * * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory.js, tag=京喜工厂, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdgc.png, enabled=true",
         "0 1,12,18 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory_component.js, tag=京喜工厂plus, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdgc.png, enabled=true",
         "0 * * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/dd_factory.js, tag=东东工厂, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png, enabled=true",		
