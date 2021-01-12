@@ -15,7 +15,8 @@
 	       "dd_shareCode1",
 	       "jx_shareCode1",
 	       "zz_shareCode1",
-	       "joy_shareCode1",	      
+	       "joy_shareCode1",
+	       "cash_shareCode1",
 	       "zd_shareCode2",
 	       "nc_shareCode2",
 	       "mc_shareCode2",
@@ -23,6 +24,7 @@
 	       "jx_shareCode2",
 	       "zz_shareCode2",
 	       "joy_shareCode2",
+	       "cash_shareCode2",
 	       "zd_shareCode3",
 	       "nc_shareCode3",
 	       "mc_shareCode3",
@@ -30,6 +32,7 @@
 	       "jx_shareCode3",
 	       "zz_shareCode3",
 	       "joy_shareCode3",
+	       "cash_shareCode3",
 	       "zd_shareCode4",
 	       "nc_shareCode4",
 	       "mc_shareCode4",
@@ -37,13 +40,23 @@
 	       "jx_shareCode4",
 	       "zz_shareCode4",
 	       "joy_shareCode4",
+	       "cash_shareCode4",
 	       "zd_shareCode5",
 	       "nc_shareCode5",
 	       "mc_shareCode5",
 	       "dd_shareCode5",
 	       "jx_shareCode5",
 	       "zz_shareCode5",
-	       "joy_shareCode5"
+	       "joy_shareCode5",
+	       "cash_shareCode5",
+	       "zd_shareCode6",
+	       "nc_shareCode6",
+	       "mc_shareCode6",
+	       "dd_shareCode6",
+	       "jx_shareCode6",
+	       "zz_shareCode6",
+	       "joy_shareCode6",
+	       "cash_shareCode6"
       ],
       "settings": [
         {
@@ -55,45 +68,52 @@
         },
         {
           "id": "nc_shareCode1",
-          "name": "账号一的京东农场",
+          "name": "账号一的东东农场",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东农场码"
+          "desc": "此处请填写你的东东农场互助码"
         },
         {
           "id": "mc_shareCode1",
-          "name": "账号一的京东萌宠",
+          "name": "账号一的东东萌宠",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东萌宠码"
+          "desc": "此处请填写你的东东萌宠互助码"
         },
         {
           "id": "dd_shareCode1",
           "name": "账号一的东东工厂",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的东东工厂码"
+          "desc": "此处请填写你的东东工厂互助码"
         },
         {
           "id": "jx_shareCode1",
           "name": "账号一的京喜工厂",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京喜工厂码"
+          "desc": "此处请填写你的京喜工厂互助码"
         },
         {
           "id": "zz_shareCode1",
           "name": "账号一的京东赚赚",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东赚赚码"
+          "desc": "此处请填写你的京东赚赚互助码"
         },
         {
           "id": "joy_shareCode1",
           "name": "账号一的京东joy",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东joy码"
+          "desc": "此处请填写你的京东joy互助码"
+        },
+        {
+          "id": "cash_shareCode1",
+          "name": "账号一的京东签到领现金",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东cash互助码"
         },
         {
           "id": "zd_shareCode2",
@@ -104,45 +124,52 @@
         },
         {
           "id": "nc_shareCode2",
-          "name": "账号二的京东农场",
+          "name": "账号二的东东农场",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东农场码"
+          "desc": "此处请填写你的东东农场互助码"
         },
         {
           "id": "mc_shareCode2",
-          "name": "账号二的京东萌宠",
+          "name": "账号二的东东萌宠",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东萌宠码"
+          "desc": "此处请填写你的东东萌宠互助码"
         },
         {
           "id": "dd_shareCode2",
           "name": "账号二的东东工厂",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的东东工厂码"
+          "desc": "此处请填写你的东东工厂互助码"
         },
         {
           "id": "jx_shareCode2",
           "name": "账号二的京喜工厂",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京喜工厂码"
+          "desc": "此处请填写你的京喜工厂互助码"
         },
         {
           "id": "zz_shareCode2",
           "name": "账号二的京东赚赚",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东赚赚码"
+          "desc": "此处请填写你的京东赚赚互助码"
         },
         {
           "id": "joy_shareCode2",
           "name": "账号二的京东joy",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东joy码"
+          "desc": "此处请填写你的京东joy互助码"
+        },
+        {
+          "id": "cash_shareCode2",
+          "name": "账号二的京东签到领现金",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东cash互助码"
         },
         {
           "id": "zd_shareCode3",
@@ -153,45 +180,52 @@
         },
         {
           "id": "nc_shareCode3",
-          "name": "账号三的京东农场",
+          "name": "账号三的东东农场",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东农场码"
+          "desc": "此处请填写你的东东农场互助码"
         },
         {
           "id": "mc_shareCode3",
-          "name": "账号三的京东萌宠",
+          "name": "账号三的东东萌宠",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东萌宠码"
+          "desc": "此处请填写你的东东萌宠互助码"
         },
         {
           "id": "dd_shareCode3",
           "name": "账号三的东东工厂",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的东东工厂码"
+          "desc": "此处请填写你的东东工厂互助码"
         },
         {
           "id": "jx_shareCode3",
           "name": "账号三的京喜工厂",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京喜工厂码"
+          "desc": "此处请填写你的京喜工厂互助码"
         },
 	 {
           "id": "zz_shareCode3",
           "name": "账号三的京东赚赚",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东赚赚码"
+          "desc": "此处请填写你的京东赚赚互助码"
         },
         {
           "id": "joy_shareCode3",
           "name": "账号三的京东joy",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东joy码"
+          "desc": "此处请填写你的京东joy互助码"
+        },
+        {
+          "id": "cash_shareCode3",
+          "name": "账号三的京东签到领现金",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东cash互助码"
         },
 	{
           "id": "zd_shareCode4",
@@ -202,45 +236,52 @@
         },
         {
           "id": "nc_shareCode4",
-          "name": "账号四的京东农场",
+          "name": "账号四的东东农场",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东农场码"
+          "desc": "此处请填写你的东东农场互助码"
         },
         {
           "id": "mc_shareCode4",
-          "name": "账号四的京东萌宠",
+          "name": "账号四的东东萌宠",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东萌宠码"
+          "desc": "此处请填写你的东东萌宠互助码"
         },
         {
           "id": "dd_shareCode4",
           "name": "账号四的东东工厂",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的东东工厂码"
+          "desc": "此处请填写你的东东工厂互助码"
         },
         {
           "id": "jx_shareCode4",
           "name": "账号四的京喜工厂",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京喜工厂码"
+          "desc": "此处请填写你的京喜工厂互助码"
         },
 	{
           "id": "zz_shareCode4",
           "name": "账号四的京东赚赚",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东赚赚码"
+          "desc": "此处请填写你的京东赚赚互助码"
         },
         {
           "id": "joy_shareCode4",
           "name": "账号四的京东joy",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东joy码"
+          "desc": "此处请填写你的京东joy互助码"
+        },
+        {
+          "id": "cash_shareCode4",
+          "name": "账号四的京东签到领现金",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东cash互助码"
         },
 	{
           "id": "zd_shareCode5",
@@ -251,45 +292,108 @@
         },
         {
           "id": "nc_shareCode5",
-          "name": "账号五的京东农场",
+          "name": "账号五的东东农场",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东农场码"
+          "desc": "此处请填写你的东东农场互助码"
         },
         {
           "id": "mc_shareCode5",
-          "name": "账号五的京东萌宠",
+          "name": "账号五的东东萌宠",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东萌宠码"
+          "desc": "此处请填写你的东东萌宠互助码"
         },
         {
           "id": "dd_shareCode5",
           "name": "账号五的东东工厂",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的东东工厂码"
+          "desc": "此处请填写你的东东工厂互助码"
         },
         {
           "id": "jx_shareCode5",
           "name": "账号五的京喜工厂",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京喜工厂码"
+          "desc": "此处请填写你的京喜工厂互助码"
         },
 	{
           "id": "zz_shareCode5",
           "name": "账号五的京东赚赚",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东赚赚码"
+          "desc": "此处请填写你的京东赚赚互助码"
         },
         {
           "id": "joy_shareCode5",
           "name": "账号五的京东joy",
           "val": "",
           "type": "text",
-          "desc": "此处请填写你的京东joy码"
+          "desc": "此处请填写你的京东joy互助码"
+        },
+        {
+          "id": "cash_shareCode5",
+          "name": "账号五的京东签到领现金",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东cash互助码"
+        },
+	{
+          "id": "zd_shareCode6",
+          "name": "账号六的种豆得豆",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的种豆得豆互助码"
+        },
+        {
+          "id": "nc_shareCode6",
+          "name": "账号六的东东农场",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的东东农场互助码"
+        },
+        {
+          "id": "mc_shareCode6",
+          "name": "账号六的东东萌宠",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的东东萌宠互助码"
+        },
+        {
+          "id": "dd_shareCode6",
+          "name": "账号六的东东工厂",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的东东工厂互助码"
+        },
+        {
+          "id": "jx_shareCode6",
+          "name": "账号六的京喜工厂",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京喜工厂互助码"
+        },
+	{
+          "id": "zz_shareCode6",
+          "name": "账号六的京东赚赚",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东赚赚互助码"
+        },
+        {
+          "id": "joy_shareCode6",
+          "name": "账号六的京东joy",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东joy互助码"
+        },
+        {
+          "id": "cash_shareCode6",
+          "name": "账号六的京东签到领现金",
+          "val": "",
+          "type": "text",
+          "desc": "此处请填写你的京东cash互助码"
         }
       ],
       "author": "@kokilu",
