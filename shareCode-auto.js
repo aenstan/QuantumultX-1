@@ -8,6 +8,7 @@ const shareCodes = [
     jxgc: $.getdata("jx_shareCode1") || "jx_shareCode1",
     jdzz: $.getdata("zz_shareCode1") || "zz_shareCode1",
     joy: $.getdata("joy_shareCode1") || "joy_shareCode1",
+    cash: $.getdata("cash_shareCode1") || "cash_shareCode1",
   },
   {
     zd: $.getdata("zd_shareCode2") || "zd_shareCode2",
@@ -17,6 +18,7 @@ const shareCodes = [
     jxgc: $.getdata("jx_shareCode2") || "jx_shareCode2",
     jdzz: $.getdata("zz_shareCode2") || "zz_shareCode2",
     joy: $.getdata("joy_shareCode2") || "joy_shareCode2",
+    cash: $.getdata("cash_shareCode2") || "cash_shareCode2",
   },
   {
     zd: $.getdata("zd_shareCode3") || "zd_shareCode3",
@@ -26,6 +28,7 @@ const shareCodes = [
     jxgc: $.getdata("jx_shareCode3") || "jx_shareCode3",
     jdzz: $.getdata("zz_shareCode3") || "zz_shareCode3",
     joy: $.getdata("joy_shareCode3") || "joy_shareCode3",
+    cash: $.getdata("cash_shareCode3") || "cash_shareCode3",
   },
   {
     zd: $.getdata("zd_shareCode4") || "zd_shareCode4",
@@ -35,6 +38,7 @@ const shareCodes = [
     jxgc: $.getdata("jx_shareCode4") || "jx_shareCode4",
     jdzz: $.getdata("zz_shareCode4") || "zz_shareCode4",
     joy: $.getdata("joy_shareCode4") || "joy_shareCode4",
+    cash: $.getdata("cash_shareCode4") || "cash_shareCode4",
   },
   {
     zd: $.getdata("zd_shareCode5") || "zd_shareCode5",
@@ -44,6 +48,17 @@ const shareCodes = [
     jxgc: $.getdata("jx_shareCode5") || "jx_shareCode5",
     jdzz: $.getdata("zz_shareCode5") || "zz_shareCode5",
     joy: $.getdata("joy_shareCode5") || "joy_shareCode5",
+    cash: $.getdata("cash_shareCode5") || "cash_shareCode5",
+  },
+  {
+    zd: $.getdata("zd_shareCode6") || "zd_shareCode6",
+    nc: $.getdata("nc_shareCode6") || "nc_shareCode6",
+    mc: $.getdata("mc_shareCode6") || "mc_shareCode6",
+    ddgc: $.getdata("dd_shareCode6") || "dd_shareCode6",
+    jxgc: $.getdata("jx_shareCode6") || "jx_shareCode6",
+    jdzz: $.getdata("zz_shareCode6") || "zz_shareCode6",
+    joy: $.getdata("joy_shareCode6") || "joy_shareCode6",
+    cash: $.getdata("cash_shareCode6") || "cash_shareCode6",
   },
 ];
 $.result = [];
@@ -52,7 +67,7 @@ $.random = Math.floor(Math.random() * 60);
 !(async () => {
   console.log(`\n此脚本延迟${$.random}秒执行\n`);
   for (let i = 0; i < shareCodes.length; i++) {
-    const { zd, nc, mc, ddgc, jxgc, jdzz, joy } = shareCodes[i];
+    const { zd, nc, mc, ddgc, jxgc, jdzz, joy, cash } = shareCodes[i];
     await $.wait($.random);
     zd &&
       (await create(
@@ -94,6 +109,12 @@ $.random = Math.floor(Math.random() * 60);
       (await create(
         `https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/${joy}/`,
         "京东joy"
+      ));
+    await $.wait($.random);
+    joy &&
+      (await create(
+        `https://code.chiang.fun/api/v1/jd/jdcash/create/${joy}/`,
+        "京东cash"
       ));
   }
   await showMsg();
