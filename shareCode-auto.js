@@ -111,10 +111,10 @@ $.random = Math.floor(Math.random() * 60);
         "京东joy"
       ));
     await $.wait($.random);
-    joy &&
+    cash &&
       (await create(
-        `https://code.chiang.fun/api/v1/jd/jdcash/create/${joy}/`,
-        "京东cash"
+        `https://code.chiang.fun/api/v1/jd/jdcash/create/${cash}/`,
+        "京东签到领现金"
       ));
   }
   await showMsg();
