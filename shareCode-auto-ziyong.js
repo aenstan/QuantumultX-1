@@ -4,28 +4,31 @@ const shareCodes = [
     zd: $.getdata("zd_shareCode1") || "7rytnc5iwcpgpfjaom7vslsvdna7fgvvosthuby",
     nc: $.getdata("nc_shareCode1") || "ba5a39e845e14b90b0f97693828294f8",
     mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzMTAwMDAwMDAyODg0NzI1OQ==",
-    ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5nJcQgm9mQMg_OUYcwpY",
+    ddgc: $.getdata("dd_shareCode1") || "T019-ak5KVtdij6-W1ymwqQCjVWnYaS5kRrbA",
     jxgc: $.getdata("jx_shareCode1") || "NnUc-6MdrKfcojDol3tBZw==",
     jdzz: $.getdata("zz_shareCode1") || "ATGEc9ujUsl9hcyaqiy8",
     joy: $.getdata("joy_shareCode1") || "QFig4aiiP6mcJvuGY9gcUg==",
+    cash: $.getdata("cash_shareCode1") || "ZE99Ban2GZZPiiiHnSA",
   },
   {
     zd: $.getdata("zd_shareCode2") || "qaa74hxscwngyw33svzwntil5a",
     nc: $.getdata("nc_shareCode2") || "2edfa974f3924bbe8dc33704f1b288e9",
     mc: $.getdata("mc_shareCode2") || "MTE1NDUyMjEwMDAwMDAwNDE5OTE2NDc=",
-    ddgc: $.getdata("dd_shareCode2") || "P04z54XCjVWnYaS5nEACmb_23hPk-Y",
+    ddgc: $.getdata("dd_shareCode2") || "T014-vVxRhkf8VHRKQCjVWnYaS5kRrbA",
     jxgc: $.getdata("jx_shareCode2") || "OJrAXMdO8hF80y5OWt_8fQ==",
     jdzz: $.getdata("zz_shareCode2") || "ATz1UmaqWyTAOAQ",
     joy: $.getdata("joy_shareCode2") || "Wg8HWanSMCVXOhObJwfX6Q==",
+    cash: $.getdata("cash_shareCode2") || "ZxM1auu0Yvkg-A",
   },
   {
     zd: $.getdata("zd_shareCode3") || "3i6yidunk7vevxhuxhxroedwmtju5pi27hd5dsa",
     nc: $.getdata("nc_shareCode3") || "c2c0fb39b6d4416999606054e09309cd",
     mc: $.getdata("mc_shareCode3") || "MTAxODc2NTEzNTAwMDAwMDAyODkyNjkyNQ==",
-    ddgc: $.getdata("dd_shareCode3") || "P04z54XCjVWnYaS5j0MCmXx1XRPiA7A3_0esA",
+    ddgc: $.getdata("dd_shareCode3") || "T020tvlxRRcR_VHKJB39nPACCjVWnYaS5kRrbA",
     jxgc: $.getdata("jx_shareCode3") || "5lr2XGx2eFEnR2q_mfrOPQ==",
-    jdzz: $.getdata("zz_shareCode3") || "AAzFUmqSYxTAVDGfx1XtC",
+    jdzz: $.getdata("zz_shareCode3") || "StvlxRRcR_VHKJB39nPAC",
     joy: $.getdata("joy_shareCode3") || "Hxn_G4lF4Bv9tQmwuujYEA==",
+    cash: $.getdata("cash_shareCode3") || "Kx81aeW6bvk79Wncw3Qb",
   },
   {
     zd: $.getdata("zd_shareCode4") || "e7lhibzb3zek3clmkhz5evkchy5srqtppa64qra",
@@ -35,15 +38,27 @@ const shareCodes = [
     jxgc: $.getdata("jx_shareCode4") || "Hg1t6rnAo-KZMBgnNpubrg==",
     jdzz: $.getdata("zz_shareCode4") || "AUWE5m_zFnDYMCGD62y4ZlA",
     joy: $.getdata("joy_shareCode4") || "SDFVR2eb_-c2DaqGwTQbH6t9zd5YaBeE",
+    cash: $.getdata("cash_shareCode4") || "eU9YaL3nN_8i8W7XzSFA1w",
   },
   {
     zd: $.getdata("zd_shareCode5") || "urpljiymktuc7rd5ugrumlj3zx74hehiog4bxdq",
     nc: $.getdata("nc_shareCode5") || "e96e88792a9a42769214a6698911b15c",
     mc: $.getdata("mc_shareCode5") || "MTE1NDUyMjEwMDAwMDAwNDIyMDg4NTk=",
-    ddgc: $.getdata("dd_shareCode5") || "P04z54XCjVWnYaS5jEJCGHw2H5XkbkQ8ygc",
+    ddgc: $.getdata("dd_shareCode5") || "T019uvxzQRYc90nTJhPynf8CjVWnYaS5kRrbA",
     jxgc: $.getdata("jx_shareCode5") || "4jACK8jLS63RbGTCvO-0rg==",
     jdzz: $.getdata("zz_shareCode5") || "ADzRWnqWVzygMDmn-1HQ",
-    joy: $.getdata("joy_shareCode5") || "-",
+    joy: $.getdata("joy_shareCode5") || "",
+    cash: $.getdata("cash_shareCode5") || "Jxo3beS3ZOEi92fTwns",
+  },
+  {
+    zd: $.getdata("zd_shareCode6") || "aufqo3ly3mg7424i5347y3oz5lru4uie4zoioqa",
+    nc: $.getdata("nc_shareCode6") || "4e1f4be208b64dac8488f6ef1524a389",
+    mc: $.getdata("mc_shareCode6") || "MTE1NDQ5OTIwMDAwMDAwNDM1NDAxMDc=",
+    ddgc: $.getdata("dd_shareCode6") || "T022vPx6SBgR81XWPR_wl_UCfQCjVWnYaS5kRrbA",
+    jxgc: $.getdata("jx_shareCode6") || "uXmQcdlI8DUh7lsg-PFVZQ==",
+    jdzz: $.getdata("zz_shareCode6") || "SvPx6SBgR81XWPR_wl_UCfQ",
+    joy: $.getdata("joy_shareCode6") || "zdCv9Se-I97582XInmRGgKt9zd5YaBeE",
+    cash: $.getdata("cash_shareCode6") || "IRo-ZOq6YP0n7GvRyHEb3w",
   },
 ];
 $.result = [];
@@ -52,7 +67,7 @@ $.random = Math.floor(Math.random() * 60);
 !(async () => {
   console.log(`\n此脚本延迟${$.random}秒执行\n`);
   for (let i = 0; i < shareCodes.length; i++) {
-    const { zd, nc, mc, ddgc, jxgc, jdzz, joy } = shareCodes[i];
+    const { zd, nc, mc, ddgc, jxgc, jdzz, joy, cash } = shareCodes[i];
     await $.wait($.random);
     zd &&
       (await create(
@@ -90,12 +105,17 @@ $.random = Math.floor(Math.random() * 60);
         "京东赚赚"
       ));
     await $.wait($.random);
-    jdzz &&
+    joy &&
       (await create(
         `https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/${joy}/`,
         "京东joy"
       ));
-    
+    await $.wait($.random);
+    cash &&
+      (await create(
+        `https://code.chiang.fun/api/v1/jd/jdcash/create/${cash}/`,
+        "京东签到领现金"
+      ));
   }
   await showMsg();
 })()
