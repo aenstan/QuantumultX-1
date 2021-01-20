@@ -45,6 +45,7 @@
         "1 */1 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_family.js, tag=京东家庭号, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_family.png, enabled=true",
         "0,30 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian.js, tag=京东炸年兽, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nian.png, enabled=true",
         "*/20 * * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nianCollect.js, tag=炸年兽收集, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nianCollect.png, enabled=true",
+        "0 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_immortal.js, tag=京东神仙书院, img-url=https://qxzy.top/rules/QuantumultX/img/jd_immortal.png, enabled=true",
         "1 8,9 14-31/1 1 * https://raw.githubusercontent.com/shylocks/Loon/main/jd_bj.js, tag=宝洁美发屋, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_bj.jpg, enabled=true",
         "20 * * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js, tag=工业品爱消除, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_gyec.jpg, enabled=true",
         "30,31 20-23/1 19 1 https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain.js, tag=超级直播间红包雨, img-url=https://raw.githubusercontent.com/shylocks/Loon/main/icons/jd_live_redrain_super.jpg, enabled=true",
